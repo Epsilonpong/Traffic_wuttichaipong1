@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wuttichai.traffic_wuttichaipong.ShowDetailActivity"
+    android:orientation="vertical"
+    android:background="@drawable/wall18">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtTitleDetail"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textColor="@color/red" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imgDetail"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="15dp" />
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="txtDetail"
+            android:id="@+id/txtdetial" />
+    </ScrollView>
+</LinearLayout>
